@@ -1,0 +1,31 @@
+{
+  "draft": true,
+  "language": "es",
+  "committee": "Comité de demostración",
+  "delegation": "Delegación de demostración",
+  "delegate": "Nombre del delegado",
+  "school": "Nombre de la institución",
+  "topic": "Tópico de demostración",
+  "opening": "Este archivo demuestra la composición visual del documento. Su contenido no representa la postura de ningún Estado y no debe entregarse en una conferencia.",
+  "background": [
+    "El primer párrafo presenta únicamente texto de muestra para comprobar tipografía, márgenes, interlineado y distribución. La versión real debe sustituirlo por información verificada y relevante para la delegación."
+  ],
+  "national_position": [
+    "El segundo párrafo reserva el espacio destinado a la experiencia, los intereses y la postura oficial de la delegación. Cada afirmación de la versión real debe estar respaldada por fuentes comprobables."
+  ],
+  "solutions": [
+    "Definir al actor responsable, la acción propuesta, el mecanismo de aplicación, los recursos necesarios y la forma de seguimiento.",
+    "Relacionar cada propuesta con el mandato del comité y con un interés verificable de la delegación.",
+    "Revisar el contenido con el delegado antes de producir la versión definitiva."
+  ],
+  "bibliography": [
+    {
+      "author": "Organización de ejemplo",
+      "date": "s.f.",
+      "title": "Entrada ficticia utilizada únicamente para mostrar el formato de la bibliografía",
+      "url": "https://example.org/"
+    }
+  ],
+  "include_page_numbers": true,
+  "bibliography_title": "Bibliografía"
+}

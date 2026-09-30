@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mun-position-paper",
+  "version": "1.0.0",
+  "description": "Investiga, redacta y produce position papers de Modelo de Naciones Unidas con postura verificable y formato profesional.",
+  "author": {
+    "name": "emilianocros27-bit",
+    "url": "https://github.com/emilianocros27-bit"
+  },
+  "homepage": "https://github.com/emilianocros27-bit/Position-papers-MUN",
+  "repository": "https://github.com/emilianocros27-bit/Position-papers-MUN",
+  "keywords": ["mun", "model-united-nations", "position-paper", "research", "education"]
+}

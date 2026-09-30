@@ -1,0 +1,7 @@
+interface:
+  display_name: "MUN Position Paper"
+  short_description: "Position papers investigados y listos para entregar"
+  brand_color: "#006600"
+  default_prompt: "Usa $mun-position-paper y empieza la entrevista para crear mi position paper."
+policy:
+  allow_implicit_invocation: true

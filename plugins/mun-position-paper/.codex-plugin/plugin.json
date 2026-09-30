@@ -1,0 +1,26 @@
+{
+  "name": "mun-position-paper",
+  "version": "1.0.0",
+  "description": "Investiga, redacta y produce position papers de Modelo de Naciones Unidas con postura verificable y formato profesional.",
+  "author": {
+    "name": "emilianocros27-bit",
+    "url": "https://github.com/emilianocros27-bit"
+  },
+  "homepage": "https://github.com/emilianocros27-bit/Position-papers-MUN",
+  "repository": "https://github.com/emilianocros27-bit/Position-papers-MUN",
+  "keywords": ["mun", "model-united-nations", "position-paper", "research", "education"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "MUN Position Paper",
+    "shortDescription": "Crea position papers investigados y listos para entregar",
+    "longDescription": "Entrevista al delegado, investiga la postura oficial, redacta soluciones dentro del mandato del comité y genera un documento profesional con fuentes verificables.",
+    "developerName": "emilianocros27-bit",
+    "category": "Education",
+    "capabilities": ["Research", "Write", "Documents"],
+    "defaultPrompt": [
+      "Usa $mun-position-paper y empieza la entrevista para crear mi position paper.",
+      "Usa $mun-position-paper para revisar y mejorar mi borrador de MUN."
+    ],
+    "brandColor": "#006600"
+  }
+}
