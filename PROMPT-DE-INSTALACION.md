@@ -1,4 +1,6 @@
-# Prompt de instalación y arranque
+# Prompt de instalación y arranque en Codex
+
+Para ChatGPT o Claude sin Codex, consulta [`USAR-EN-CHATGPT-O-CLAUDE.md`](USAR-EN-CHATGPT-O-CLAUDE.md) y usa [`PROMPT-CHAT-NORMAL.md`](PROMPT-CHAT-NORMAL.md).
 
 Copia y pega este mensaje en Codex o en otro agente con acceso a terminal:
 

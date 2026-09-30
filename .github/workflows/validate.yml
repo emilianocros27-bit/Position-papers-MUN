@@ -24,4 +24,6 @@ jobs:
           python -m json.tool plugins/mun-position-paper/plugin.json >/dev/null
           python -m json.tool plugins/mun-position-paper/.codex-plugin/plugin.json >/dev/null
       - name: Run document builder smoke test
-        run: python plugins/mun-position-paper/tests/test_builder.py
+        run: |
+          python plugins/mun-position-paper/tests/test_builder.py
+          python plugins/mun-position-paper/tests/test_chat_prompt.py

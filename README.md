@@ -2,6 +2,18 @@
 
 Plugin y skill para investigar, redactar y producir position papers de Modelo de Naciones Unidas. El flujo comienza con una entrevista breve, comprueba la postura real de la delegación, adapta las propuestas al mandato del comité y termina con un documento Word revisado visualmente.
 
+## ChatGPT o Claude sin Codex
+
+Para un chat normal, usa el archivo autosuficiente [`PROMPT-CHAT-NORMAL.md`](PROMPT-CHAT-NORMAL.md). Descárgalo y adjúntalo al chat, o copia todo su contenido. Las instrucciones completas están en [`USAR-EN-CHATGPT-O-CLAUDE.md`](USAR-EN-CHATGPT-O-CLAUDE.md).
+
+Enlace directo que un chat con navegación web puede intentar abrir:
+
+```text
+https://raw.githubusercontent.com/emilianocros27-bit/Position-papers-MUN/main/PROMPT-CHAT-NORMAL.md
+```
+
+Adjuntar el archivo es más fiable que pegar únicamente la URL del repositorio, porque un chat normal no necesariamente recorre todos sus archivos.
+
 ## Qué incluye
 
 - Entrevista interactiva para obtener comité, delegación o personaje, tópico, conferencia, formato y postura del delegado.
@@ -83,6 +95,7 @@ La instalación exacta fuera de Codex depende de las funciones de cada producto.
 
 ```bash
 python plugins/mun-position-paper/tests/test_builder.py
+python plugins/mun-position-paper/tests/test_chat_prompt.py
 ```
 
 La prueba valida el JSON de ejemplo, genera un DOCX temporal y comprueba su estructura básica.
